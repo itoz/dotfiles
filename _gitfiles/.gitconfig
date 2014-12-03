@@ -1,0 +1,25 @@
+[user]
+	name = itoz
+	email = info@romatica.com
+[mergetool]
+	keepBackup = true
+[core]
+	excludesfile = /Users/itoz/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[pack]
+	windowMemory = 256m
+	
+[merge "mergepbx"]
+	name = Xcode project files merger
+	driver = mergepbx %O %A %B
+	note = auto-generated configuration by `cpad manifest ios`
+[push]
+	default = simple
+[alias]
+	st = status
+	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
