@@ -1,4 +1,7 @@
 " Note: Skip initialization for vim-tiny or vim-small.
+" https://github.com/Shougo/neobundle.vim
+"
+"
  if !1 | finish | endif
 
  if has('vim_starting')
@@ -6,24 +9,32 @@
 
    " Required:
    set runtimepath+=~/.vim/bundle/neobundle.vim/
- endif
+ 
+endif
+ 
+"---------------------------------------------------
+" Required:
+"---------------------------------------------------
+call neobundle#begin(expand('~/.vim/bundle/'))
 
- " Required:
- call neobundle#begin(expand('~/.vim/bundle/'))
-
+"---------------------------------------------------
  " Let NeoBundle manage NeoBundle
  " Required:
+"---------------------------------------------------
  NeoBundleFetch 'Shougo/neobundle.vim'
 
- NeoBundle 'tpope/vim-surround'
-
+"---------------------------------------------------
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.
  " Note: You don't set neobundle setting in .gvimrc!
+"---------------------------------------------------
+NeoBundle 'tpope/vim-surround'
 
  call neobundle#end()
 
+"---------------------------------------------------
  " Required:
+"---------------------------------------------------
  filetype plugin indent on
 
  " If there are uninstalled bundles found on startup,
