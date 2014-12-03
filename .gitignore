@@ -1,5 +1,7 @@
 _vimfiles/bundle/*
 !_vimfiles/bundle/neobundle.vim
 
+
 .DS_Store
 .netrwhist
+*.swp
