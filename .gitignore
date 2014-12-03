@@ -1,1 +1,4 @@
-vimfiles/bundle.git
+_vimfiles/bundle/*
+!_vimfiles/bundle/neobundle.vim
+*/.DS_Store
+
