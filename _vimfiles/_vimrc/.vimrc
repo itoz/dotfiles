@@ -2,7 +2,11 @@
 " https://github.com/Shougo/neobundle.vim
 "
 "
- if !1 | finish | endif
+let g:hybrid_use_iTerm_colors = 1
+colorscheme hybrid
+syntax on
+
+if !1 | finish | endif
 
  if has('vim_starting')
    set nocompatible               " Be iMproved
@@ -29,6 +33,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
  " Note: You don't set neobundle setting in .gvimrc!
 "---------------------------------------------------
 NeoBundle 'tpope/vim-surround'
+NeoBundle 'w0ng/vim-hybrid'
+
 
  call neobundle#end()
 
