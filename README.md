@@ -5,11 +5,14 @@
 
 ##vim
  - ln -sF ~/dotfiles/_vimfiles ~/.vim
- - ln -sF ~/dotfiles/_gvimrc/.gvimrc ~/.gvimrc
- - ln -sF ~/dotfiles/_vimrc/.gimrc ~/.vimrc
+ - ln -sF ~/dotfiles/_vimfiles/_gvimrc/.gvimrc ~/.gvimrc
+ - ln -sF ~/dotfiles/_vimfiles/_vimrc/.vimrc ~/.vimrc
 
-vim
-:NeoBundleInstall
+###neobundle自体をインストールしていない場合
+ - git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+### bundleインストール
+ - vim
+ - :NeoBundleInstall
 
 ##git
 
