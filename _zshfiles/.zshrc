@@ -1,3 +1,10 @@
+if [[ -f ~/.nodebrew/nodebrew ]]; then
+    export PATH=$HOME/.nodebrew/current/bin:$PATH
+    nodebrew use v0.10.22
+fi
+
+
+
 #sell Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
