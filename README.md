@@ -26,3 +26,8 @@
  - :NeoBundleInstall
 
 
+##bash
+ = ln -sF ~/dotfiles/_bashfiles/.bash_profile .~/.bash_profile
+ 
+
+
