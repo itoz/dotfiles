@@ -1,48 +1,55 @@
 " Note: Skip initialization for vim-tiny or vim-small.
 " https://github.com/Shougo/neobundle.vim
-"
-"
+
 let g:hybrid_use_iTerm_colors = 1
 colorscheme hybrid
 syntax on
 
-if !1 | finish | endif
+" 行番号を表示
+set number
 
- if has('vim_starting')
-   set nocompatible               " Be iMproved
+"--------------------------
+" Start Neobundle Settings.
+"---------------------------
+" bundleで管理するディレクトリを指定
 
-   " Required:
-   set runtimepath+=~/.vim/bundle/neobundle.vim/
- 
-endif
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+
  
 "---------------------------------------------------
 " Required:
 "---------------------------------------------------
+
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 "---------------------------------------------------
- " Let NeoBundle manage NeoBundle
- " Required:
+" Let NeoBundle manage NeoBundle
+" Required:
 "---------------------------------------------------
- NeoBundleFetch 'Shougo/neobundle.vim'
+
+NeoBundleFetch 'Shougo/neobundle.vim'
 
 "---------------------------------------------------
- " My Bundles here:
- " Refer to |:NeoBundle-examples|.
- " Note: You don't set neobundle setting in .gvimrc!
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
 "---------------------------------------------------
-NeoBundle 'tpope/vim-surround'
+
+" カッコで囲む
+NeoBundle 'surround.vim'
 NeoBundle 'w0ng/vim-hybrid'
+" ファイルをtree表示してくれる :NEADTree
+NeoBundle 'scrooloose/nerdtree'
 
 
- call neobundle#end()
+call neobundle#end()
 
 "---------------------------------------------------
- " Required:
+" Required:
 "---------------------------------------------------
- filetype plugin indent on
+filetype plugin indent on
 
- " If there are uninstalled bundles found on startup,
- " this will conveniently prompt you to install them.
- NeoBundleCheck
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
+
+NeoBundleCheck
