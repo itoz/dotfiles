@@ -4,7 +4,6 @@ if [[ -f ~/.nodebrew/nodebrew ]]; then
 fi
 
 
-
 #sell Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -12,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wedisagree"
+ZSH_THEME="clean"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -58,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/itoz/.nvm/v0.10.29/bin:/Users/itoz/Dropbox/Develop/_sdk/apache_flex_4.12.1_AIR4.0_FP14/bin:/Users/itoz/Dropbox/Develop/_sdk_android/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.nvm/v0.10.29/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
