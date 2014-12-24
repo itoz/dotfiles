@@ -1,1 +1,1 @@
-echo export PATH='/usr/local/bin:$PATH'
+echo export PATH='/usr/local/bin:/usr/bin:$PATH'
