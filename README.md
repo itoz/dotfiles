@@ -9,6 +9,7 @@
  - ln -sF ~/dotfiles/_gitfiles/.gitconfig ~/.gitconfig
 
 ##zsh
+ - brew install zsh
  - curl -L http://install.ohmyz.sh | sh
  - ln -sF ~/dotfiles/_zshfiles/.zshrc ~/.zshrc 
  - ln -sF ~/dotfiles/_zshfiles/.oh-my-zsh ~/.oh-my-zsh 
