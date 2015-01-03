@@ -84,4 +84,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.nvm/v0.10.29/bin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias -g be='bundle exec'
+
 export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
+
