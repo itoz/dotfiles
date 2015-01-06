@@ -1,7 +1,7 @@
-if [[ -f ~/.nodebrew/nodebrew ]]; then
+
     export PATH=$HOME/.nodebrew/current/bin:$PATH
     nodebrew use v0.10.22
-fi
+
 
 
 #sell Path to your oh-my-zsh installation.
@@ -57,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.nvm/v0.10.29/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
