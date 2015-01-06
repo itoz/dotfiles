@@ -1,8 +1,7 @@
 
-    export PATH=$HOME/.nodebrew/current/bin:$PATH
-    nodebrew use v0.10.22
 
-
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+nodebrew use v0.10.22
 
 #sell Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -84,7 +83,10 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias -g be='bundle exec'
 
-export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
+#export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
+
+
 
