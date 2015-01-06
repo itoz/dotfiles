@@ -11,6 +11,7 @@
 ##zsh
  - brew install zsh
  - curl -L http://install.ohmyz.sh | sh
+ - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
  - ln -sF ~/dotfiles/_zshfiles/.zshrc ~/.zshrc 
  - ln -sF ~/dotfiles/_zshfiles/.oh-my-zsh ~/.oh-my-zsh 
 
