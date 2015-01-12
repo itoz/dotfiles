@@ -60,6 +60,11 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.nvm/v0.10.29/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
+export CC=/usr/bin/gcc-4.2
+
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
