@@ -1,5 +1,5 @@
 
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 nodebrew use v0.10.22
 
@@ -56,7 +56,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -87,6 +86,5 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 alias -g be='bundle exec'
 
 #export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
-
 
 
