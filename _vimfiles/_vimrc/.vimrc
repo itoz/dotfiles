@@ -7,6 +7,8 @@ syntax on
 
 " 行番号を表示
 set number
+"スクロールするとき下3行を常に見えるようにする
+:set scrolloff=3
 
 "--------------------------
 " Start Neobundle Settings.
