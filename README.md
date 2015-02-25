@@ -20,6 +20,9 @@
  - ln -sF ~/dotfiles/_vimfiles/_gvimrc/.gvimrc ~/.gvimrc
  - ln -sF ~/dotfiles/_vimfiles/_vimrc/.vimrc ~/.vimrc
 
+##gem
+- ln -sF ~/dotfiles/_gemfiles/.gemrc ~/.gemrc
+
 ###※neobundle自体をインストールしていない場合
  - git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 
