@@ -58,7 +58,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
 export CC=/usr/bin/gcc-4.2
 # You may need to manually set your language environment
