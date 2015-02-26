@@ -90,4 +90,12 @@ alias -g be='bundle exec'
 
 #export PATH="$PATH:/Applications/android-sdk/sdk/platform-tools"
 
+#
+# hubの設定
+#
+function git(){hub "$@"} # zsh
+
+
+
+
 
