@@ -1,0 +1,13 @@
+.nodebrew/
+.oh-my-zsh/
+
+.claude/ide/*.lock
+.claude/projects/**/*.jsonl
+
+.vscode/extensions/
+.vscode/logs/
+.vscode/CachedData/
+
+.cursor/extensions/
+.cursor/logs/
+.cursor/CachedData/
